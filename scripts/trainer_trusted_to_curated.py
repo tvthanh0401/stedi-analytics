@@ -47,6 +47,10 @@ StepTrainerTrusted_node1676578616395 = glueContext.write_dynamic_frame.from_cata
     frame=DropFields_node1676402760786,
     database="stedi",
     table_name="machine_learning_curated",
+    additional_options={
+        "enableUpdateCatalog": True,
+        "updateBehavior": "UPDATE_IN_DATABASE",
+    },
     transformation_ctx="StepTrainerTrusted_node1676578616395",
 )
 
